@@ -576,6 +576,12 @@
       "Source": "CRAN",
       "Hash": "e3b95a7458944efa0ebbb903bcdbe168"
     },
+    "ggpointdensity": {
+      "Package": "ggpointdensity",
+      "Version": "0.1.0",
+      "Source": "CRAN",
+      "Hash": "b9561772f692235cb9d729b47aab9d1b"
+    },
     "ggridges": {
       "Package": "ggridges",
       "Version": "0.5.1",
