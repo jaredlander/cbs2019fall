@@ -86,6 +86,8 @@ running the following line of code.
 source('prep/setup.r')
 ```
 
+Answer `y` to any questions asked in the terminal.
+
 # All Done
 
 That’s everything. You should now do all of your work for this class in
