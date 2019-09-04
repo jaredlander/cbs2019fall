@@ -90,8 +90,8 @@ of RStudio (the name in the image may be different).
 
 # Finish Setup
 
-Setting up all of the needed packages and data will be handled by
-running the following line of code.
+Setting up all of the needed packages\[3\] and data will be handled by
+running the following line of code in the R console.
 
 ``` r
 source('prep/setup.r')
@@ -109,3 +109,5 @@ this project.
 1.  Can also be done with ssh instead of https.
 
 2.  Or `git@github.com:nyhackr/cbs2019fall.git` for ssh.
+
+3.  Linux users might need to install `libxml2-dev` and `zlib1g-dev`

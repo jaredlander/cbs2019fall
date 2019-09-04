@@ -125,7 +125,7 @@ knitr::include_graphics('images/ProjectCorner.png')
 
 # Finish Setup
 
-Setting up all of the needed packages and data will be handled by running the following line of code.
+Setting up all of the needed packages^[Linux users might need to install `libxml2-dev` and `zlib1g-dev`] and data will be handled by running the following line of code in the R console.
 
 ```{r source-setup,eval=FALSE}
 source('prep/setup.r')
