@@ -40,22 +40,22 @@ This assumes you have `git`
 
 Click `File > New Project`.
 
-![](C:/Users/jared/Documents/Consulting/courses/Workshops/cbs2019fall/images/rstudio-project-menu.png)<!-- -->
+![](images/rstudio-project-menu.png)<!-- -->
 
 Click `Version Control`.
 
-![](C:/Users/jared/Documents/Consulting/courses/Workshops/cbs2019fall/images/rstudio-create-project.png)<!-- -->
+![](images/rstudio-create-project.png)<!-- -->
 
 Click `Git`.
 
-![](C:/Users/jared/Documents/Consulting/courses/Workshops/cbs2019fall/images/rstudio-create-project-version-control.png)<!-- -->
+![](images/rstudio-create-project-version-control.png)<!-- -->
 
 Choose a folder in the `Create project as a subdirectory of` field.
 
 Paste `https://github.com/nyhackr/cbs2019fall`\[2\] in the `Repository
 URL` field.
 
-![](C:/Users/jared/Documents/Consulting/courses/Workshops/cbs2019fall/images/rstudio-create-project-git.png)<!-- -->
+![](images/rstudio-create-project-git.png)<!-- -->
 
 ## `usethis` Package
 
@@ -90,6 +90,8 @@ source('prep/setup.r')
 
 That’s everything. You should now do all of your work for this class in
 this project.
+
+# Footnotes
 
 1.  Can also be done with ssh instead of https.
 

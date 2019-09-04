@@ -68,19 +68,19 @@ This assumes you have `git` [installed](https://git-scm.com/book/en/v2/Getting-S
 Click `File > New Project`.
 
 ```{r new-project-click,echo=FALSE}
-knitr::include_graphics(here::here('images', 'rstudio-project-menu.png'))
+knitr::include_graphics('images/rstudio-project-menu.png')
 ```
 
 Click `Version Control`.
 
 ```{r version-control-click,echo=FALSE}
-knitr::include_graphics(here::here('images', 'rstudio-create-project.png'))
+knitr::include_graphics('images/rstudio-create-project.png')
 ```
 
 Click `Git`.
 
 ```{r git-click,echo=FALSE}
-knitr::include_graphics(here::here('images', 'rstudio-create-project-version-control.png'))
+knitr::include_graphics('images/rstudio-create-project-version-control.png')
 ```
 
 Choose a folder in the `Create project as a subdirectory of` field.
@@ -88,7 +88,7 @@ Choose a folder in the `Create project as a subdirectory of` field.
 Paste ``r sprintf('https://github.com/nyhackr/%s', params$repoName)``^[Or `git@github.com:nyhackr/cbs2019fall.git` for ssh.] in the `Repository URL` field.
 
 ```{r paste-url,echo=FALSE}
-knitr::include_graphics(here::here('images', 'rstudio-create-project-git.png'))
+knitr::include_graphics('images/rstudio-create-project-git.png')
 ```
 
 ## `usethis` Package
