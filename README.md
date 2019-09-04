@@ -10,6 +10,13 @@ School](https://www8.gsb.columbia.edu/courses/mba/2019/fall/b8144-001).
 Please **follow all instructions** to set up your environment for the
 training.
 
+# Install R and RStudio
+
+This is just like installing any other program.
+
+  - [R](https://cloud.r-project.org/)
+  - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
 # Getting the Repo
 
 In order to get the most out of class you have to be working in this
@@ -26,6 +33,8 @@ Choose **one of these methods**.
 
 This assumes you have `git`
 [installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).\[1\]
+
+Run this command in the command line or shell.
 
 ``` sh
 git clone https://github.com/nyhackr/cbs2019fall.git
@@ -58,6 +67,8 @@ URL` field.
 ![](images/rstudio-create-project-git.png)<!-- -->
 
 ## `usethis` Package
+
+Run these commands in the R console.
 
 ``` r
 # install usethis package
