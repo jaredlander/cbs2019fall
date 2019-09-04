@@ -3,6 +3,7 @@ output: github_document
 params:
     className: "Introduction to R"
     repoName: "cbs2019fall"
+    repoOwner: "nyhackr"
     organizer: "[Columbia Business School](https://www8.gsb.columbia.edu/courses/mba/2019/fall/b8144-001)"
     packages: !r c('here', 'knitr', 'rmarkdown', 'tidyverse', 'usethis')
 ---
@@ -55,8 +56,8 @@ Choose __one of these methods__.
 
 This assumes you have `git` [installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).^[Can also be done with ssh instead of https.]
 
-```{sh instal-git,eval=FALSE}
-git clone https://github.com/nyhackr/cbs2019fall.git
+```sh
+git clone `r sprintf("https://github.com/%s/%s.git", params$repoOwner, params$repoName)`
 ```
 
 Then open the ``r sprintf("%s.Rproj", params$repoName)`` file.
@@ -85,7 +86,7 @@ knitr::include_graphics('images/rstudio-create-project-version-control.png')
 
 Choose a folder in the `Create project as a subdirectory of` field.
 
-Paste ``r sprintf('https://github.com/nyhackr/%s', params$repoName)``^[Or `git@github.com:nyhackr/cbs2019fall.git` for ssh.] in the `Repository URL` field.
+Paste ``r sprintf('https://github.com/%s/%s', params$repoOwner, params$repoName)``^[Or `git@github.com:nyhackr/cbs2019fall.git` for ssh.] in the `Repository URL` field.
 
 ```{r paste-url,echo=FALSE}
 knitr::include_graphics('images/rstudio-create-project-git.png')
@@ -98,7 +99,7 @@ knitr::include_graphics('images/rstudio-create-project-git.png')
 install.packages('usethis')
 
 # get the repo
-newProject <- usethis::use_course('https://github.com/nyhackr/`r params$repoName`/archive/master.zip')
+newProject <- usethis::use_course('https://github.com/`r params$repoOwner`/`r params$repoName`/archive/master.zip')
 ```
 
 Be sure to select the positive prompts such as `yes`, `yeah`, etc.
