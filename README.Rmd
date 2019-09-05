@@ -3,7 +3,7 @@ output: github_document
 params:
     className: "Introduction to R"
     repoName: "cbs2019fall"
-    repoOwner: "nyhackr"
+    repoOwner: "jaredlander"
     organizer: "[Columbia Business School](https://www8.gsb.columbia.edu/courses/mba/2019/fall/b8144-001)"
     packages: !r c('here', 'knitr', 'rmarkdown', 'tidyverse', 'usethis')
 ---

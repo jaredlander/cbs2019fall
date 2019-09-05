@@ -37,7 +37,7 @@ This assumes you have `git`
 Run this command in the command line or shell.
 
 ``` sh
-git clone https://github.com/nyhackr/cbs2019fall.git
+git clone https://github.com/jaredlander/cbs2019fall.git
 ```
 
 Then open the `cbs2019fall.Rproj` file.
@@ -61,8 +61,8 @@ Click `Git`.
 
 Choose a folder in the `Create project as a subdirectory of` field.
 
-Paste `https://github.com/nyhackr/cbs2019fall`\[2\] in the `Repository
-URL` field.
+Paste `https://github.com/jaredlander/cbs2019fall`\[2\] in the
+`Repository URL` field.
 
 ![](images/rstudio-create-project-git.png)<!-- -->
 
@@ -75,7 +75,7 @@ Run these commands in the R console.
 install.packages('usethis')
 
 # get the repo
-newProject <- usethis::use_course('https://github.com/nyhackr/cbs2019fall/archive/master.zip')
+newProject <- usethis::use_course('https://github.com/jaredlander/cbs2019fall/archive/master.zip')
 ```
 
 Be sure to select the positive prompts such as `yes`, `yeah`, etc.
